@@ -1,0 +1,8 @@
+django
+pillow
+gunicorn
+psycopg2-binary
+whitenoise
+numpy
+pandas
+sklearn
