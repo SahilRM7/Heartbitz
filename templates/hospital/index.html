@@ -33,7 +33,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4 col-sm-4">
-          <div class="features-box">
+          <div class="features-box selected">
             <h3>Heart Monitoring</h3>
             <p>Experience the ease and efficiency of our online appointment service and take a proactive step towards better heart health today.</p>
             <a href="{% url 'appointment' %}">Get Free Appointment</a>
@@ -41,19 +41,16 @@
         </div>
         <div class="col-md-4 col-sm-4">
           <div class="features-box selected">
-            <h3>First Aid</h3>
-            <p>Contact us today, and let us support you on your journey to optimal heart health.</p>
-            <a href="{% url 'contact' %}">Contact Us</a>
+            <h3>CVD Prediction</h3>
+            <p>Check your heart health now, with our CVD prediction feature and ahead of future risks.</p>
+            <a href="{% url 'cvd' %}">CVD prediction</a>
           </div>
         </div>
         <div class="col-md-4 col-sm-4">
-          <div class="features-box">
-            <h3>Emergency Help</h3>
-            <p><span>Monday-Friday:</span> Full Day<br>
-              <span>Satuday:</span> Full Day<br>
-              <span>Sunday:</span> 7:00am - 05:00pm<br>
-            </p>
-            <a href="#">Call for Info: +911 7777 4444</a>
+          <div class="features-box selected">
+            <h3>First Aid</h3>
+            <p>Contact us today, and let us support you on your journey to optimal heart health.</p>
+            <a href="{% url 'contact' %}">Contact Us</a>
           </div>
         </div>
       </div>
